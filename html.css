@@ -1,0 +1,153 @@
+.ht{
+    background-color: rgb(218, 204, 183);
+    height: 150px;
+    width: 10000px;
+    position:absolute ;
+    left: 0px;
+    
+
+    
+}
+img{
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.e{
+   background-color: rgb(218, 204, 183); 
+   border: 1px solid black;
+   border-radius: 30px;
+   height: 50px;
+   width:280px;
+   margin-left: 210px;
+   display: inline;
+}
+h1{
+    display: inline;
+    font-size: 24px;
+    margin-left: 40px;
+}
+.b{
+    position: relative;
+    background-color:rgb(3, 75, 51) ;
+    height: 50px;
+    width: 140;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+.l{
+    background-color: rgb(93, 112, 93);
+    height: 50px;
+    width: 140;
+    font-size: 20px;
+    border: none;
+    border-radius:30px;  
+}
+.d2{
+    background-color: black;
+    height: 50px;
+    margin-top: 10px;
+
+
+}
+.p{
+    color: white;
+    font-size: 25px;
+    font-family: Bahnschrift SemiCondensed;
+    padding-left: 90px;
+    display: inline;
+    
+}
+.p:hover{
+    background-color: white;
+    color: black;
+    height: 0px;width: 0px;
+    border-radius: 50px;
+}
+.mq{
+  color: aliceblue;
+  display: inline;
+  padding-top:15px;
+
+    
+}
+.p1{
+    font-size: 100px;
+    font-family: Arial;
+    margin-left: 34px; 
+    margin-top: 280px;
+}
+.bt{
+    background-color: rgb(3, 75, 51);
+    height: 60px;
+    width: 140px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 34px;
+}
+.g2{
+    margin-left: 1000px;
+    background-color: rgb(3, 75, 51);
+    height: 60px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+@media (max-wight:858) {
+  .div{
+    height: 100px;
+    width:858px ;
+
+
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    margin-top: 8px;
+  }
+  .o{
+    font-size:20px ;
+    margin-left:50px ;
+
+  }
+  .e{
+    height: 20px;
+    width:130px ;
+    margin-left:100px ;
+    border-radius: 20px;
+  } 
+  h1{
+   font-size: 10px;
+   margin-left: 20px;
+  }
+.b{
+    height: 20px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.l{
+    height: 20px;
+    width: 60px;
+    font-size: 15px;
+    border-radius: 20px; 
+}
+.d2{
+    display: none;
+}
+.z{
+    display: block;
+}
+.z:clicked~.d2{
+    display: inline;
+}
+    
+}
